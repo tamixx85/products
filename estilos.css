@@ -1,0 +1,666 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box; }
+
+
+img{
+    max-width: 100%;
+}
+    
+
+.principal{
+    display: flex;
+    justify-content: space-evenly;   
+   
+}
+
+
+.logo{
+    flex-direction: row;
+    margin-left: 80px;  
+    margin-top: 27px; 
+   
+}
+
+.logo img{
+    object-fit: contain;
+   
+}
+  
+nav{
+    flex-direction: row; 
+    
+}
+
+
+nav a{
+    text-decoration:none;
+    font-family: 'Halyard Text',sans-serif;
+    font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 80px;
+   color: #1E266D;
+   padding: 20px;
+   margin: 20px; 
+
+}
+   
+
+.button{
+    flex-direction: row;
+   flex: 1;
+   margin-top: 21px;
+   margin-left:120px;
+}
+.button a{
+  text-decoration: none;
+   font-family: 'Halyard Text', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 20px;
+  background: #3751FF;
+  padding:12px 25px
+  
+}
+
+.button span{
+    color: #455880;
+    font-size: 16px;
+    font-weight:500;
+    font-family: 'halyard text', sans-serif;
+    padding:20px;
+}
+
+
+
+.color{
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+    border-radius: 0px;
+}
+
+ h1{
+    color: #1E266D;
+    text-decoration: none;
+    font-family: 'haylard-display', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 105%;
+    text-align: center;
+    margin-top: 50px;
+   
+
+ }
+
+p{
+    font-size: 18px;
+    line-height: 150%;
+    color: #1E266D;
+    font-weight: normal;
+    font-style: normal;
+    font-family:'haylard text', sans-serif; 
+    text-align: center;
+    margin-top: 20px;
+ 
+   
+}
+
+.button2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+
+.button2 a{
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    font-family:'haylard text', sans-serif; 
+    line-height: 100%;
+    background: #3751FF;
+    border-radius: 100px;
+    color: white;
+    border: 6px solid ;  
+    padding: 15px 20px;
+    margin: 15px;
+
+  
+}
+
+
+.button2 span a{
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    font-family:'haylard text', sans-serif; 
+    line-height: 100%;  
+    color: #1E266D;
+    border-radius: 100px;
+    background: white;
+    padding: 15px;
+    border: 2px solid white;
+}
+
+
+
+.image2 img {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+ 
+}
+
+.text1 p{
+ font-family: Halyard Text;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+text-align: center;
+color: rgba(69, 88, 128, 0.5);
+
+}
+
+ .logos2 img{
+     display: block;
+     margin:auto;
+     margin-top: 30px;
+     overflow: hidden;
+
+ }
+ /*---------------section 2---------------------------------*/
+ .section2{
+     background:white;
+     height: auto;
+     overflow: hidden;
+    
+ }
+ h2{
+    font-family: 'Halyard Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1E266D;;
+    text-align: center;
+    margin: 80px;
+ }
+.image3{
+    width: 60%;
+    float: left;
+   height: auto;
+   overflow: hidden;
+  
+}
+
+.image3 img{
+    padding-bottom:60px;
+    padding-left: 50px;
+}
+
+.iconos{
+    width: 40%;
+    float: left;
+    height: auto;
+}
+
+.iconos img{
+    position:relative;
+    top: 40px;
+    left:50px;
+    
+}
+
+h3{
+font-family:'Halyard Display', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 125%;
+color: #1E266D;
+position: relative;
+bottom: 20px;
+left:150px;
+
+}
+
+.iconos p{
+font-family: 'Halyard Text',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+color: #455880;
+position: relative;
+bottom: 18px;
+left:150px;
+text-align: left;
+
+}
+
+.iconos hr{
+    width: 60%;
+}
+
+
+
+
+/*------------section3---------------*/
+.section3{
+    padding: 20px;
+    background:  #FFF9EA;
+
+}
+.section3 h2{
+  font-family: 'Halyard Display',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+color: #1E266D;
+}
+
+.section3 p{
+font-family: 'Halyard Text',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 150%;
+text-align: center;
+color: #455880;
+margin-bottom: 30px;
+
+}
+
+
+.button4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+}
+
+.button4 a{
+ text-decoration: none;
+ font-family: 'Halyard Text',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 100%;
+color: #FFFFFF;
+background: #3751FF;
+border-radius: 50px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 32px;
+padding-left: 32px;
+ 
+}
+
+/*-----------section4------------*/
+
+.section4{
+   overflow: hidden;
+   height: auto;
+  
+
+}
+
+.table1{
+  width: 30%;
+  float: left;
+  border:1px solid lightgray;
+  margin:20px;
+  overflow: hidden;
+  height: auto;
+  padding-bottom: 200px;
+  padding-top: 45px;
+}
+
+.table2{
+    width: 30%;
+    float: left;
+    border:1px solid lightgray;
+    margin:20px;
+    overflow: hidden;
+    height: auto;
+    padding-bottom: 200px;
+    padding-top: 45px;
+    
+}
+
+.table3{
+    float: left;
+    width: 30%;
+    border:1px solid lightgray;
+    margin:20px;
+    overflow: hidden;
+    height: auto;
+    padding-bottom: 200px;
+    padding-top: 45px;
+   
+
+    
+}
+
+.user span{
+    display: flex;
+    color: #1E266D;
+    font-weight: bold;
+    font-family: 'halyard display',sans-serif;
+    margin-top:20px;
+   
+}
+
+
+.user {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  top:160px;
+ 
+ 
+}
+
+
+
+h6{
+    font-family: 'Halyard Text',sans-serif;
+    font-style: normal;
+    font-weight: normal;  
+    font-size: 15px;
+    color: #1E266D;
+    text-align: center;
+    margin-top: 5px;
+  
+}
+
+.section4 p{
+text-align: left;
+padding-left: 90px;
+}
+
+/*----------blue------------------*/
+
+.blue{
+    background-color: #3751FF;
+    overflow: hidden;
+    height: auto;
+   display: flex;
+   margin-top: 60px;
+   
+}
+
+.text{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    height: auto;
+    padding: 50px;
+}
+
+.button5{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    
+}
+
+.text p{
+font-family: 'Halyard Display', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 60px;
+color: #FFFFFF;
+
+}
+
+.button5 a{
+    border-radius: 40px;
+    background-color: white;
+    text-decoration: none;
+    font-family:'Halyard Display',sans-serif;
+    font-style: normal;
+     font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    text-align: center;
+    color: #455880;
+    width:30%;
+    padding: 12px 30px;
+    margin-left: 265px;  
+
+}
+
+.button5 p{
+ font-family: 'Halyard Text',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 125%;
+text-align:center;
+color: #DFE0EB;
+
+}
+span{
+    color: coral;
+}
+/*-------section5--------------*/
+
+.section5{
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+    overflow: hidden;
+    height: auto;
+    display: flex;
+
+}
+.digits{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    margin: 10px;
+    padding: 60px 15px;
+    height: auto;
+}
+
+.digits img{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin-left: 46px;
+    
+   
+}
+
+.digits p{
+    text-align: left;
+    justify-content: center;
+    padding-left: 35px;
+    margin: 10px;
+}
+
+.pages{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 60px;
+    
+ 
+}
+
+.demos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 60px;
+   
+
+}
+
+.resources{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+   align-items:flex-start;
+    margin: 60px;
+    padding-bottom:80px;
+  
+  
+}
+
+.resources img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+.section5 a{
+    text-decoration: none;
+    font-family: 'Halyard Text',sans-serif;
+    font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 225%;
+   color: #455880;
+}
+  
+.section5 span{
+    font-family: 'Halyard Display',sans-serif;
+font-style: normal;
+font-weight:bold;
+font-size: 22px;
+line-height: 125%;
+color: #1E266D;
+
+}
+
+
+/*footerrrr------------*/
+.footer p{
+font-family: 'Halyard Text',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 27px;
+color: rgba(69, 88, 128, 0.5);
+padding: 10px 0px 10px 20px;
+margin: 50px;
+
+}
+.footer{
+    margin-top: 50px;
+    display: flex;
+   
+}
+
+.footer1 p{
+    font-family: 'Halyard Text',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+   color: rgba(69, 88, 128, 0.5);
+   padding: 10px;
+}
+
+.footer1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    float: left;
+       
+}
+
+.footer2{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    width: 50%;
+    float: left;
+  
+}
+
+.footer2 a{
+font-family: 'Halyard Text', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 27px;
+text-align: right;
+color: #455880;
+margin: 10px;
+padding: 10px;
+  
+}
